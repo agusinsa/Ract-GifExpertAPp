@@ -1,6 +1,7 @@
 import {  useEffect, useState } from "react";//useEffect sirve para disparar efectos secundarios, se ejecuta cuando termina de pasar algo
 import { useFetchGifs } from "../hooks/useFetchGifs";
 import { GifItem } from "./GifItem";
+import '../../styles.css'
 
 
 export const GifGrid = ({ category }) => {
